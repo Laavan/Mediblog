@@ -1,0 +1,196 @@
+ul#hnavigation
+{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:auto;
+	position:relative;
+	display:block;
+	height:35px;
+	font-size:13px;
+	font-weight:bold;
+}
+ul#hnavigation li	{ display:block; float:left; margin:0; padding:0; }
+ul#hnavigation li a
+{
+	display:block;
+	float:left;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-size:13px;
+	font-weight:bold;
+	padding:12px 15px 0 15px;
+	height:23px;
+}
+/*ul#hnavigation li a:hover	{ background:transparent url("../../images/menu-bg2.gif") no-repeat top right;	}*/
+ul#hnavigation li a:hover	{ text-decoration:underline }
+
+ 
+.bgmenu { background:url("images/bgmenu.gif") repeat-x; }
+.bgmenu li { background:url("images/dividermenu.gif") no-repeat top right; }
+
+.bgmenu { background:url("images/bgmenu.gif") repeat-x; }
+.bgmenu li { background:url("images/dividermenu.gif") no-repeat top right; }
+
+ 
+
+.btxt  { font-family:Georgia;font-size:26px;color:#0c61b8; padding-right:15px }
+ 
+
+.boxtitle 	{ background:url("../../images/bg-grey2.gif") repeat-x; height:28px; padding-left: 5px; border-bottom:1px solid #D7D7D7; font-family:verdana; font-size:15px; font-weight:bold; color:#333333 }
+.boxtitle1 	{ background:url("../../images/bg-grey2.gif") repeat-x; height:28px; padding-left: 5px; border-bottom:1px solid #D7D7D7; font-family:arial; font-size:15px; font-weight:bold; color:#333333 }
+ 
+
+.bgfooter 			{ background-color:#c6d4df; color:#000000; }
+.bgfooter	a 			{ color:#2371c3; }
+.bgfooter	a:hover 	{ color:#2371c3; }
+ 
+ 
+.vline{ padding: 2px; background: transparent url(../../images/a_v_line.gif) repeat-y scroll 0% 0%; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous; }
+.footer1{
+	margin:0px;
+	width:984px;
+	font-size:11px;
+	font-family:verdana;
+	line-height:20px;
+}
+.footer1 a { font-family:verdana; font-size:13px; line-height:25px; }
+.footer1 a:hover { font-family:verdana; font-size:13px;line-height:25px; }
+
+.border-grey1 { border:1px solid #D7D7D7 }
+
+
+.psg1 a { font-family:verdana; font-size:13px; font-weight:bold }
+.psg1 a:hover { font-family:verdana; font-size:13px; font-weight:bold }
+.psg1 a.small { font-family:verdana; font-size:11px; color:black;font-weight:normal; }
+.psg1 a.small:hover { font-family:verdana; font-size:11px; color:black;font-weight:normal; }
+.psg2 a { font-family:verdana; font-size:11px; color:#333333 }
+.psg2 a:hover { font-family:verdana; font-size:11px; color:#333333 }
+
+
+.paddT3 { padding-top:3px }
+.paddT5 { padding-top:5px }
+.paddT12 { padding-top:12px }
+
+.padd10 { padding:10px }
+
+ 
+.ta10 	{ font-family:arial; font-size:10px; }
+ 
+.ta11,.ta11 a ,.ta11 a :hover 	{ font-family:arial; font-size:11px; }
+ .ta12,.ta12 a ,.ta12 a :hover 	{ font-family:arial; font-size:12px; }
+ .ta14,.ta14 a ,.ta14 a :hover 	{ font-family:arial; font-size:14px; }
+ 
+ .tv11,.tv11 a ,.tv11 a :hover 	{ font-family:verdana; font-size:11px; }
+ .tv12,.tv12 a ,.tv12 a :hover 	{ font-family:verdana; font-size:12px; }
+ .tv14,.tv14 a ,.tv14 a :hover 	{ font-family:verdana; font-size:14px; }  
+ 
+.tabtit1 	{ font-family:verdana; font-size:13px; font-weight:bold; color:#333333 }
+.tabtit1 a { font-family:verdana; font-size:13px; font-weight:bold; color:#333333 }
+.tabtit1 a:hover { font-family:verdana; font-size:13px; font-weight:bold; color:#333333 }
+
+
+.tabtit2 	{ font-family:arial; font-size:13px; font-weight:bold; color:#333333 }
+.tabtit2 a { font-family:arial; font-size:13px; font-weight:bold; color:#333333 }
+.tabtit2 a:hover { font-family:arial; font-size:13px; font-weight:bold; color:#333333 }
+
+.poptags 	{ text-align:center; font-family:verdana; font-size:13px; font-weight:bold }
+.poptags a 	{ font-family:verdana; font-size:13px; font-weight:bold }
+.poptags a:hover { font-family:verdana; font-size:13px; font-weight:bold }
+
+.txt11 { font-size:11px; }
+.txt14 { font-size:14px; }
+.txt16 { font-size:16px; }
+.txt18 { font-size:18px; }
+.txt20 { font-size:20px; }
+.txt24 { font-size:24px; }
+
+
+.statsStory{ float:left; width:100%; }
+
+#tabpopStory,.tabpopStory
+{
+	height:30px !important;
+	height /**/:30px; 
+	/* for IE5/Win */	
+	margin:0;
+	padding:0 0 0 10px;
+	background:url("../../images/bg-grey.gif") repeat-x;
+	
+}
+
+#tabpopStory li,.tabpopStory li{
+	margin:0;
+	padding:0;
+	display:inline;
+	list-style-type:none;
+}
+
+#tabpopStory li.tabpopHead, #tabpopStory a:link, #tabpopStory a:visited, #tabpopStory a:visited.active,#tabpopStory a:hover,.tabpopStory li.tabpopHead, .tabpopStory a:link, .tabpopStory a:visited, .tabpopStory a:visited.active,.tabpopStory a:hover
+{
+	border-left:1px solid #d7d7d7;
+	border-top:2px solid #3e96c2;
+	float:left;
+	padding:2px 4px;
+	margin:0 0px 0 0;
+	font-size:1.0em;
+	line-height:16px;
+	text-decoration:none;
+	text-align:left;
+	height:21px !important;
+	height /**/:23px;
+	 /* for IE5/Win */	
+}
+
+#tabpopStory li.tabpopHead,.tabpopStory li.tabpopHead{
+	background:#fff;	
+	border-bottom:1px solid #fff;
+	color:#333;
+}
+
+#tabpopStory a:link, #tabpopStory a:visited, #tabpopStory a:visited.active,#tabpopStory a:hover,.tabpopStory a:link, .tabpopStory a:visited, .tabpopStory a:visited.active,.tabpopStory a:hover
+{background:url("../../images/bg-grey.gif") repeat-x;border-top:0px;border-left:0px;padding:3px 4px;}
+
+#tabpopStory a:hover,.tabpopStory a:hover{text-decoration:none;}
+
+.mainHeader1{
+	margin:0px auto;
+	width:984px; 
+}
+ .groupImg2{
+	width:30px;
+	float:left;
+}
+
+.HomeBanner2
+{
+    background:url(../../images/slide-general1.jpg) no-repeat;
+    width:450px;
+    height:213px;
+    padding-bottom:15px;
+}
+.bg-regsign1 { background:url(../../images/bg-regsign1.gif) no-repeat; width:260px; height:50px; text-align:center; padding-top:3px; }
+
+
+
+.ListImages img
+{
+    display:block;
+    float:left;
+    background:#FFF url(../../images/radioUnSel.jpg) no-repeat top left;
+    padding:18px 4px 1px 0px;
+    width:82px;
+    height:70px;
+    cursor:pointer;
+
+}
+.ListImages img.selectedImg,.ListImages img:hover
+{
+    display:block;
+    float:left;
+    background:#FFF url(../../images/radioSel.jpg) no-repeat top left;
+}
+.viewanswer { background:url(images/view-answer.jpg) no-repeat;  width:92px; height:22px;}
+.viewreplyandanswer { background:url(images/view-reply-answer.jpg) no-repeat;  width:138px; height:28px;}
+.viewanswerandreply { background:url(images/view-answer-reply.jpg) no-repeat;  width:138px; height:28px;}
+.view {background:url(images/view.gif) no-repeat;  width:92px; height:22px;}
